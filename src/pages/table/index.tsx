@@ -39,7 +39,6 @@ export default function TablePage() {
 
   const getData = () => {
     console.log('getData');
-    
     const data = []
     for (let i = 0; i < pagination.pageSize; i++) {
       data.push({
